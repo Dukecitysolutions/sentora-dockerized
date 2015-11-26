@@ -2,6 +2,9 @@
 
 A work in progress to find a good strategy for deploying sentora using docker.
 
+[ ] volumes mount form a docker img : vols [ mysql , www-hostdata ]
+[ ] mysql linking to sentora docker
+[ ] sentora docker with params for access -e sentora-user etc
 
 #### Contributing
 

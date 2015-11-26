@@ -1,0 +1,11 @@
+sentora:
+  build: .
+  ports:
+   - "8000:80"
+  volumes_from: volumes
+  links:
+   - mysql
+volumes:
+  image: busybox:latest
+mysql:
+  image: mysq
